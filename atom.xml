@@ -6,7 +6,7 @@
   <link href="http://wlh55.github.io/atom.xml" rel="self"/>
   
   <link href="http://wlh55.github.io/"/>
-  <updated>2022-08-07T10:47:14.980Z</updated>
+  <updated>2022-08-07T14:03:37.696Z</updated>
   <id>http://wlh55.github.io/</id>
   
   <author>
@@ -17,13 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>月明星稀</title>
+    <link href="http://wlh55.github.io/2022/08/07/%E6%9C%88%E6%98%8E%E6%98%9F%E7%A8%80/"/>
+    <id>http://wlh55.github.io/2022/08/07/%E6%9C%88%E6%98%8E%E6%98%9F%E7%A8%80/</id>
+    <published>2022-08-07T13:54:28.000Z</published>
+    <updated>2022-08-07T14:03:37.696Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="行路难"><a href="#行路难" class="headerlink" title="行路难"></a>行路难</h3><p>金樽清酒斗十千，玉盘珍羞直万钱。(羞 同：馐；直 同：值)<br>停杯投箸不能食，拔剑四顾心茫然。<br>欲渡黄河冰塞川，将登太行雪满山。(雪满山 一作：雪暗天)<br>闲来垂钓碧溪上，忽复乘舟梦日边。(碧 一作：坐)<br>行路难，行路难，多歧路，今安在？<br>长风破浪会有时，直挂云帆济沧海。</p><h2 id="译文及注释"><a href="#译文及注释" class="headerlink" title="译文及注释"></a>译文及注释</h2><p><strong>译文</strong><br>金杯中的美酒一斗价十千，玉盘里的菜肴珍贵值万钱。<br>心中郁闷，我放下杯筷不愿进餐；拔出宝剑环顾四周，心里一片茫然。<br>想渡黄河，冰雪却冻封了河川；想登太行山，莽莽风雪早已封山。<br>像姜尚垂钓溪，闲待东山再起；又像伊尹做梦，他乘船经过日边。<br>人生道路多么艰难，多么艰难；歧路纷杂，如今又身在何处？<br>相信乘风破浪的时机总会到来，到时定要扬起征帆，横渡沧海！</p><p><strong>注释</strong><br>行路难：选自《<a href="https://so.gushiwen.cn/authorv_b90660e3e492.aspx">李白</a>集校注》，乐府旧题。<br>金樽（zūn）：古代盛酒的器具，以金为饰。<br>清酒：清醇的美酒。<br>斗十千：一斗值十千钱（即万钱），形容酒美价高。<br>玉盘：精美的食具。<br>珍羞：珍贵的菜肴。羞：同“馐”，美味的食物。<br>直：通“值”，价值。<br>投箸：丢下筷子。<br>箸（zhù）：筷子。不能食：咽不下。<br>茫然：无所适从。<br>太行：太行山。<br>碧：一作“坐”。<br>忽复：忽然又。<br>多歧路，今安在：岔道这么多，如今身在何处？<br>歧：一作“岐”，岔路。<br>安：哪里。<br>长风破浪：比喻实现政治理想。<br>会：终将。<br>云帆：高高的船帆。船在海里航行，因天水相连，船帆好像出没在云雾之中。</p><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/R-C.12d344efd4201d111019484e5c01cd43" alt="查看源图像"></p><ul><li>晚安！！！</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;行路难&quot;&gt;&lt;a href=&quot;#行路难&quot; class=&quot;headerlink&quot; title=&quot;行路难&quot;&gt;&lt;/a&gt;行路难&lt;/h3&gt;&lt;p&gt;金樽清酒斗十千，玉盘珍羞直万钱。(羞 同：馐；直 同：值)&lt;br&gt;停杯投箸不能食，拔剑四顾心茫然。&lt;br&gt;欲渡黄河冰塞川，将登太行雪</summary>
+      
+    
+    
+    
+    
+    <category term="古诗" scheme="http://wlh55.github.io/tags/%E5%8F%A4%E8%AF%97/"/>
+    
+    <category term="css" scheme="http://wlh55.github.io/tags/css/"/>
+    
+    <category term="js" scheme="http://wlh55.github.io/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://wlh55.github.io/2022/08/07/hello-world/"/>
     <id>http://wlh55.github.io/2022/08/07/hello-world/</id>
     <published>2022-08-07T10:47:14.980Z</published>
     <updated>2022-08-07T10:47:14.980Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
       
