@@ -6,7 +6,7 @@
   <link href="http://wlh55.github.io/atom.xml" rel="self"/>
   
   <link href="http://wlh55.github.io/"/>
-  <updated>2022-08-11T15:10:31.341Z</updated>
+  <updated>2022-08-17T15:05:16.069Z</updated>
   <id>http://wlh55.github.io/</id>
   
   <author>
@@ -18,10 +18,32 @@
   
   <entry>
     <title></title>
+    <link href="http://wlh55.github.io/2022/08/17/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8/"/>
+    <id>http://wlh55.github.io/2022/08/17/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8/</id>
+    <published>2022-08-17T15:06:02.278Z</published>
+    <updated>2022-08-17T15:05:16.069Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="小程序简单入门"><a href="#小程序简单入门" class="headerlink" title="小程序简单入门"></a>小程序简单入门</h2><p><strong>一、工具准备</strong></p><ul><li>1、阅读微信小程序开发文档，下载微信小程序开发工具<a href="https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html">稳定版 Stable Build | 微信开放文档 (qq.com)</a></li></ul><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220817163932507.png" alt="image-20220817163932507"></p><ul><li>2、运行微信小程序开发工具，新建项目==&gt;选择小程序==&gt;填写信息(获取appid)</li></ul><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220817164247164.png" alt="image-20220817164247164"></p><ul><li>3、项目结构和工具界面</li></ul><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220817164458189.png" alt="image-20220817164458189"></p><p><strong>二、页面配置</strong></p><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220817164828569.png" alt="image-20220817164828569"></p><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220817171843173.png" alt="image-20220817171843173"></p><ul><li>在app.json中配置显示的页面</li><li>删掉自动生成的模板页面重写pages里的页面</li><li>写完基本页面配置后端云函数</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;小程序简单入门&quot;&gt;&lt;a href=&quot;#小程序简单入门&quot; class=&quot;headerlink&quot; title=&quot;小程序简单入门&quot;&gt;&lt;/a&gt;小程序简单入门&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;一、工具准备&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1、阅读微信小程序开发文档</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>书城项目第三阶段</title>
     <link href="http://wlh55.github.io/2022/08/11/%E4%B9%A6%E5%9F%8E%E9%A1%B9%E7%9B%AE%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5/"/>
     <id>http://wlh55.github.io/2022/08/11/%E4%B9%A6%E5%9F%8E%E9%A1%B9%E7%9B%AE%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5/</id>
     <published>2022-08-11T15:11:31.433Z</published>
-    <updated>2022-08-11T15:10:31.341Z</updated>
+    <updated>2022-08-11T15:18:18.255Z</updated>
     
     <content type="html"><![CDATA[<h2 id="书城项目第三阶段"><a href="#书城项目第三阶段" class="headerlink" title="书城项目第三阶段"></a>书城项目第三阶段</h2><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220810111412038.png" alt="image-20220810111412038"></p><ul><li><p>搜索替换快快捷键（ctrl+shift+r）</p></li><li><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220810113641351.png" alt="image-20220810113641351"></p></li><li><p>代码优化，去除多余冗余，使用jsp的静态包含标签</p></li></ul><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220810161640607.png" alt="image-20220810161640607"></p><ul><li><p>登录和注册页面表单信息回显，将表单信息保存在requestyu中</p></li><li><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220810161941509.png" alt="image-20220810161941509"></p></li><li><p>然后在html页面中使用jsp标签输出回显信息</p></li><li><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220810162113713.png" alt="image-20220810162113713"></p></li></ul><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220810162131452.png" alt="image-20220810162131452"></p><ul><li><p>代码优化1:合并loginservlet程序和registservelt程序为Userservlet程序，使用隐藏标签，判断使用哪个方法</p></li><li><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220810170934751.png" alt="image-20220810170934751"></p></li><li><p>```<br>  String action=req.getParameter(“action”);//获取action的值判断使用哪个方法<br>  if(“regist”.equals(action)){<br>      regist(req,resp)<br>  }</p><pre class="line-numbers language-none"><code class="language-none">- 代码优化2：使用反射优化大量if else语句- ![image-20220810171337048](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220810171337048.png)- 代码优化3- ![image-20220810171633205](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220810171633205.png)### BeanUtils工具类的使用![image-20220811224210038](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220811224210038.png)- 使用HttpServletRequest可能导致代码耦合度过高  ### 泛型  泛型类型在逻辑上看以看成是多个不同的类型，实际上都是相同的基本类型。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ul><p>/此处T可以随便写为任意标识，常见的如T、E、K、V等形式的参数常用于表示泛型<br>//在实例化泛型类时，必须指定T的具体类型<br>public class Generic<t>{<br>    //key这个成员变量的类型为T,T的类型由外部指定<br>    private T key;</t></p><pre><code>public Generic(T key) { //泛型构造方法形参key的类型也为T，T的类型由外部指定    this.key = key;}public T getKey(){ //泛型方法getKey的返回值类型为T，T的类型由外部指定    return key;}</code></pre><p>}</p><pre class="line-numbers language-none"><code class="language-none">[![复制代码](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/copycode.gif)](javascript:void(0);) [![复制代码](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/copycode.gif)](javascript:void(0);)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>//泛型的类型参数只能是类类型（包括自定义类），不能是简单类型<br>//传入的实参类型需与泛型的类型参数类型相同，即为Integer.<br>Generic<integer> genericInteger = new Generic<integer>(123456);</integer></integer></p><p>//传入的实参类型需与泛型的类型参数类型相同，即为String.<br>Generic<string> genericString = new Generic<string>(“key_vlaue”);<br>Log.d(“泛型测试”,”key is “ + genericInteger.getKey());<br>Log.d(“泛型测试”,”key is “ + genericString.getKey());</string></string></p><p>```</p><p><a href="javascript:void(0);"><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/copycode.gif" alt="复制代码"></a></p><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220811230944556.png" alt="image-20220811230944556"></p><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220811231002559.png" alt="image-20220811231002559"></p><ul><li>不用转类型了</li></ul>]]></content>
     
@@ -33,6 +55,14 @@
     
     
     
+    <category term="javaweb" scheme="http://wlh55.github.io/categories/javaweb/"/>
+    
+    
+    <category term="servelt" scheme="http://wlh55.github.io/tags/servelt/"/>
+    
+    <category term="BeanUtils" scheme="http://wlh55.github.io/tags/BeanUtils/"/>
+    
+    <category term="jsp" scheme="http://wlh55.github.io/tags/jsp/"/>
     
   </entry>
   
