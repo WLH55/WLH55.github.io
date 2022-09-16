@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="contact, LH">
+    <meta name="keywords" content="分类: java, LH">
     <meta name="description" content="你好世界">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>contact | 个人博客</title>
+    <title>分类: java | 个人博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -331,13 +331,7 @@
 
 </header>
 
-    <link rel="stylesheet" type="text/css" href="/css/style.css" />
-<link rel="stylesheet" type="text/css" href="/css/barrager.css">
-<script src="/libs/valine/av-min.js"></script>
-<script src="/libs/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="/js/jquery.barrager.js"></script>
-
-<div class="bg-cover pd-header about-cover">
+    <div class="bg-cover pd-header about-cover">
     <div class="container">
     <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
@@ -385,108 +379,114 @@
     </div>
 </div>
 
-<style>
-    #send{
-        margin-bottom: 10px;
-        width: 49%;
-        background-color: #0ba360;
-    }
-    #clear{
-        margin-bottom: 10px;
-        width: 49%;
-        background-color: #e7c65c;
-    }
-    p{
-        text-align: center;
-    }
-</style>
 <main class="content">
-    <div id="contact" class="container chip-container">
-        <div class="card">
-            <div class="card-content">
-                <div class="tag-title center-align">
-                    <i class="fas fa-comments"></i>&nbsp;&nbsp;留言板
-                </div>
+
+    
+
+<div id="category-cloud" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
+            </div>
+            <div class="tag-chips">
+                
+                
+                
+                <a href="/categories/javaweb/" title="javaweb: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F9EBEA;">javaweb
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" title="小程序: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F5EEF8;">小程序
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/java/" title="java: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            style="background-color: #D5F5E3;">java
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
                 
             </div>
-            <!--valine评论弹幕-->
-            
-        </div>
-
-        <!--其他评论card-->
-        <div class="card">
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-                
-    <div id="SOHUCS"></div>
-    <script type="text/javascript">
-        window.onload = function () {
-            var loadChangYan = function () {
-                var appid = 'cywdAGmq9';
-                var conf = 'e78bf75b1bdacc279441886b153a8b34';
-                var width = window.innerWidth || document.documentElement.clientWidth;
-                if (width < 960) {
-                    var head = document.getElementsByTagName('head')[0] || document.head || document.documentElement;
-                    var script = document.createElement('script');
-                    script.type = 'text/javascript';
-                    script.charset = 'utf-8';
-                    script.id = 'changyan_mobile_js';
-                    script.src = 'https://cy-cdn.kuaizhan.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid +
-                        '&conf=' + conf;
-                    head.appendChild(script);
-                } else {
-                    var loadJs = function (d, a) {
-                        var c = document.getElementsByTagName("head")[0] || document.head || document.documentElement;
-                        var b = document.createElement("script");
-                        b.setAttribute("type", "text/javascript");
-                        b.setAttribute("charset", "UTF-8");
-                        b.setAttribute("src", d);
-                        if (typeof a === "function") {
-                            if (window.attachEvent) {
-                                b.onreadystatechange = function () {
-                                    var e = b.readyState;
-                                    if (e === "loaded" || e === "complete") {
-                                        b.onreadystatechange = null;
-                                        a()
-                                    }
-                                }
-                            } else {
-                                b.onload = a
-                            }
-                        }
-                        c.appendChild(b)
-                    };
-                    loadJs("https://cy-cdn.kuaizhan.com/upload/changyan.js", function () {
-                        window.changyan.api.config({
-                            appid: appid,
-                            conf: conf
-                        })
-                    });
-                }
-            }
-
-            loadChangYan();
-        }
-    </script>
-
-            
-
         </div>
     </div>
+</div>
+
+
+    
+
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2022/09/16/java%E5%9F%BA%E7%A1%80%E5%B0%8F%E7%82%B9/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="java基础小点">
+                            
+                            <span class="card-title">java基础小点</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                java基础小点
+
+4.4.5&amp;&amp; 和 &amp; 使用区别
+
+\1) &amp;&amp;短路与：如果第一个条件为 false，则第二个条件不会判断，最终结果为 false，效率高 
+\2) &amp; 逻辑与：不管第一个
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-16
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/java/" class="post-category">
+                                    java
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/java/">
+                            <span class="chip bg-color">java</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </article>
 </main>
+
+
 
 
     <footer class="page-footer bg-color">

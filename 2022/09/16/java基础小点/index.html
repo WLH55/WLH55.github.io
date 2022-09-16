@@ -4,14 +4,13 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="小程序入门, LH">
-    <meta name="description" content="小程序简单入门一、工具准备
+    <meta name="keywords" content="java基础小点, LH">
+    <meta name="description" content="java基础小点
 
-1、阅读微信小程序开发文档，下载微信小程序开发工具稳定版 Stable Build | 微信开放文档 (qq.com)
+4.4.5&amp;amp;&amp;amp; 和 &amp;amp; 使用区别
 
-
-
-2、运行微信小程序开发工具，新建项目==&amp;gt;选择小程序==&amp;gt;填写信息(获取">
+\1) &amp;amp;&amp;amp;短路与：如果第一个条件为 false，则第二个条件不会判断，最终结果为 false，效率高 
+\2) &amp;amp; 逻辑与：不管第一个">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -23,7 +22,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>小程序入门 | 个人博客</title>
+    <title>java基础小点 | 个人博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -341,12 +340,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">小程序入门</h1>
+                    <h1 class="description center-align post-title">java基础小点</h1>
                 </div>
             </div>
         </div>
@@ -370,20 +369,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/js/">
-                                <span class="chip bg-color">js</span>
-                            </a>
-                        
-                            <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/">
-                                <span class="chip bg-color">小程序</span>
-                            </a>
-                        
-                            <a href="/tags/wxss/">
-                                <span class="chip bg-color">wxss</span>
-                            </a>
-                        
-                            <a href="/tags/wxml/">
-                                <span class="chip bg-color">wxml</span>
+                            <a href="/tags/java/">
+                                <span class="chip bg-color">java</span>
                             </a>
                         
                     </div>
@@ -394,8 +381,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" class="post-category">
-                                小程序
+                            <a href="/categories/java/" class="post-category">
+                                java
                             </a>
                         
                     </div>
@@ -407,28 +394,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-08-17
+                    2022-09-16
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-08-25
+                    2022-09-16
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    135
+                    3.5k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    13 分
                 </div>
                 
 
@@ -451,27 +438,341 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="小程序简单入门"><a href="#小程序简单入门" class="headerlink" title="小程序简单入门"></a>小程序简单入门</h2><p><strong>一、工具准备</strong></p>
+                <h2 id="java基础小点"><a href="#java基础小点" class="headerlink" title="java基础小点"></a>java基础小点</h2><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220830165525340.png" alt="image-20220830165525340"></p>
 <ul>
-<li>1、阅读微信小程序开发文档，下载微信小程序开发工具<a target="_blank" rel="noopener" href="https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html">稳定版 Stable Build | 微信开放文档 (qq.com)</a></li>
+<li><strong>4.4.5&amp;&amp; 和 &amp; 使用区别</strong></li>
 </ul>
-<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220817163932507.png" alt="image-20220817163932507"></p>
+<p>\1) &amp;&amp;短路与：如果第一个条件为 false，则第二个条件不会判断，最终结果为 false，效率高 </p>
+<p>\2) &amp; 逻辑与：不管第一个条件是否为 false，第二个条件都要判断，效率低 </p>
+<p>\3) 开发中， 我们使用的基本是使用短路与&amp;&amp;, 效率高 </p>
+<p><strong>单个或与符号效率低，都要全部条件判断完</strong></p>
 <ul>
-<li>2、运行微信小程序开发工具，新建项目==&gt;选择小程序==&gt;填写信息(获取appid)</li>
+<li><strong>//表达式 1 和表达式 2 要为可以赋给接收变量的类型</strong></li>
 </ul>
-<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220817164247164.png" alt="image-20220817164247164"></p>
+<p>//(或可以自动转换/或者强制转换) </p>
+<p>int a = 3; </p>
+<p>int b = 8; </p>
+<p>int c = a &gt; b ? (int)1.1 : (int)3.4;//可以的 </p>
+<p>double d = a &gt; b ? a : b + 3;//可以的，满足 int -&gt; double</p>
 <ul>
-<li>3、项目结构和工具界面</li>
+<li><p><strong>4.7 运算符优先级</strong> </p>
+<p>\1) 运算符有不同的优先级，所谓优先级就是表达式运算中的运算顺序。如右表，上一行运算符总优先于下一行。 </p>
+<p>\2) 只有单目运算符、赋值运算符是从右向左运算的。 </p>
+<p>\3) 一览表, 不要背，使用多了，就熟悉了</p>
+</li>
 </ul>
-<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220817164458189.png" alt="image-20220817164458189"></p>
-<p><strong>二、页面配置</strong></p>
-<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220817164828569.png" alt="image-20220817164828569"></p>
-<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220817171843173.png" alt="image-20220817171843173"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220830170306976.png" alt="image-20220830170306976"></p>
 <ul>
-<li>在app.json中配置显示的页面</li>
-<li>删掉自动生成的模板页面重写pages里的页面</li>
-<li>写完基本页面配置后端云函数</li>
+<li><strong>4.8.2标识符命名规范[更加专业]</strong></li>
 </ul>
+<p>\1) 包名：多单词组成时所有字母都小写：aaa.bbb.ccc //比如 com.hsp.crm </p>
+<p>\2) 类名、接口名：多单词组成时，所有单词的首字母大写：XxxYyyZzz [大驼峰] </p>
+<p>比如： TankShotGame </p>
+<p>\3) 变量名、方法名：多单词组成时，第一个单词首字母小写，第二个单词开始每个单词首字母大写：xxxYyyZzz [小 </p>
+<p>驼峰， 简称 驼峰法] </p>
+<p>比如： tankShotGame </p>
+<p>\4) 常量名：所有字母都大写。多单词时每个单词用下划线连接：XXX_YYY_ZZZ </p>
+<p>比如 ：定义一个所得税率 TAX_RATE </p>
+<p>\5) 后面我们学习到 类，包，接口，等时，我们的命名规范要这样遵守,更加详细的看文档</p>
+<ul>
+<li><strong>4.10 保留字</strong></li>
+</ul>
+<p>4.10.1 介绍 </p>
+<p>Java 保留字：现有 Java 版本<strong>尚未使用</strong>，但<strong>以后版本可能会作为关键字使用</strong>。自己命名标识符时要避免使用这些保留 </p>
+<p>字 byValue、cast、future、 generic、 inner、 operator、 outer、 rest、 var 、 goto 、const </p>
+<p>4.11 <strong>键盘输入语句</strong> </p>
+<p><strong>4.11.1 介绍</strong> </p>
+<p>在编程中，需要接收用户输入的数据，就可以使用键盘输入语句来获取。Input.java , 需要一个 扫描器(对象), 就是 </p>
+<h2 id="Scanner"><a href="#Scanner" class="headerlink" title="Scanner"></a><strong>Scanner</strong></h2><p>4.11.2 步骤 ： </p>
+<p>\1) 导入该类的所在包, java.util.* </p>
+<p>\2) 创建该类对象（声明变量） </p>
+<p>\3) 调用里面的功能 </p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">import</span> <span class="token import"><span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span></span><span class="token punctuation">;</span>
+<span class="token class-name">Scanner</span> scanner <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入年龄"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> age <span class="token operator">=</span> scanner<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>age<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="4-12-1-进制介绍"><a href="#4-12-1-进制介绍" class="headerlink" title="4.12.1 进制介绍"></a><strong>4.12.1</strong> 进制介绍</h2><p>对于整数，有四种表示方式： </p>
+<p>二进制：0,1 ，满 2 进 1.以 0b 或 0B 开头。 </p>
+<p>十进制：0-9 ，满 10 进 1。 </p>
+<p>八进制：0-7 ，满 8 进 1. 以数字 0 开头表示。 </p>
+<p>十六进制：0-9 及 A(10)-F(15)，满 16 进 1. 以 <strong>0x</strong> <strong>或</strong> <strong>0X</strong> 开头表示。此处的 A-F 不区分大小写</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220830171628509.png" alt="image-20220830171628509"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220830200912473.png" alt="image-20220830200912473"></p>
+<ul>
+<li>遇到break才会停</li>
+<li><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220830201850485.png" alt="image-20220830201850485"></li>
+</ul>
+<p>5.7.4注意事项和细节说明 </p>
+<p>ForDetail.java </p>
+<p>\1) 循环条件是返回一个布尔值的表达式 </p>
+<p>\2) for(;循环判断条件;) 中的初始化和变量迭代可以写到其它地方，但是两边的分号不能省略。 </p>
+<p>\3) 循环初始值可以有多条初始化语句，但要求类型一样，并且中间用逗号隔开，循环变量迭代也可以有多条变量迭代 </p>
+<p>语句，中间用逗号隔开</p>
+<h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p><strong>6.2.1使用方式 2-动态初始化</strong> </p>
+<p><strong> 先声明数组</strong> </p>
+<p>语法:数据类型 数组名[]; 也可以 数据类型[] 数组名; </p>
+<p>int a[]; 或者 int[] a; </p>
+<p> 创建数组 </p>
+<p>语法: 数组名=new 数据类型[大小]; </p>
+<p>a=new int[10]; </p>
+<p> 案例演示【前面修改即可】</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220830205949033.png" alt="image-20220830205949033"></p>
+<p><strong>6.3 数组使用注意事项和细节</strong> </p>
+<p>\1) 数组是多个相同类型数据的组合，实现对这些数据的统一管理 </p>
+<p>\2) 数组中的元素可以是任何数据类型，包括基本类型和引用类型，但是不能混用。 </p>
+<p>\3) 数组创建后，如果没有赋值，有默认值 </p>
+<p>int 0，short 0, byte 0, long 0, float 0.0,double 0.0，char \u0000，boolean false，String null </p>
+<p>\4) 使用数组的步骤 1. 声明数组并开辟空间 2 给数组各个元素赋值 3 使用数组 </p>
+<p>\5) 数组的<strong>下标是从</strong> <strong>0</strong> <strong>开始的</strong>。 </p>
+<p>\6) 数组下标必须在指定范围内使用，否则报：下标越界异常，比如 </p>
+<p>) 数组属引用类型，数组型数据是对象(object)</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220830210835104.png" alt="image-20220830210835104"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220830211014736.png" alt="image-20220830211014736"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220830211154790.png" alt="image-20220830211154790"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220830211445244.png" alt="image-20220830211445244"></p>
+<ul>
+<li>查找</li>
+</ul>
+<p>findName.equals(names[i])</p>
+<ul>
+<li>二维数组</li>
+<li><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220830212449011.png" alt="image-20220830212449011"></li>
+</ul>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLH/image-20220830212705391.png" alt="image-20220830212705391"></p>
+<ul>
+<li><p>静态初始化</p>
+</li>
+<li><pre><code class="java">- int[][] arr = {{1,1,1}, {8,8,9}, {100}};
+
+- 
+</code></pre>
+</li>
+<li><p><strong>6.16 二维数组使用细节和注意事项</strong> </p>
+<p>\1) 一维数组的声明方式有: </p>
+<p>int[] x 或者 int x[] </p>
+<p>\2) 二维数组的声明方式有: </p>
+<p><strong>int[][] y</strong> <strong>或者</strong> <strong>int[] y[]</strong> <strong>或者</strong> <strong>int y[][]</strong> </p>
+<p>\3) 二维数组实际上是由多个一维数组组成的，它的各个一维数组的长度可以相同，也可以不相同。比如： map[][] 是 </p>
+<p>一个二维数组 </p>
+<p>int map [][] = “{“{1,2},{3,4,5}”}”//因为上传有报错，所以才改成这样</p>
+<p>由 map[0] 是一个含有两个元素的一维数组 ，map[1] 是一个含有三个元素的一维数组构成，我们也称为列数不等 </p>
+<p>的二维数组</p>
+</li>
+</ul>
+<h2 id="类与对象"><a href="#类与对象" class="headerlink" title="类与对象"></a>类与对象</h2><p>\3) 属性如果不赋值，有默认值，规则和数组一致。具体说: int 0，</p>
+<p>short 0, byte 0, long 0, float 0.0,double 0.0，</p>
+<p>char \u0000， </p>
+<p>boolean false，String null</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220902235040084.png" alt="image-20220902235040084"></p>
+<p><strong>7.1.13 类和对象的内存分配机制</strong> </p>
+<p> Java 内存的结构分析 </p>
+<p>\1) 栈： 一般存放基本数据类型(局部变量) </p>
+<p>\2) 堆： 存放对象(Cat cat , 数组等) </p>
+<p>\3) 方法区：常量池(常量，比如字符串)， 类加载信息 </p>
+<p>\4) 示意图 [Cat (name, age, price)] </p>
+<p> Java 创建对象的流程简单分析 </p>
+<p>Person p = new Person(); </p>
+<p>p.name = “jack”; </p>
+<p>p.age = 10 </p>
+<p>\1) 先加载 Person 类信息(属性和方法信息, 只会加载一次) </p>
+<p>\2) 在堆中分配空间, 进行默认初始化(看规则) </p>
+<p>\3) 把地址赋给 p , p 就指向对象 </p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220902235700230.png" alt="image-20220902235700230"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220902235943444.png" alt="image-20220902235943444"></p>
+<ul>
+<li><p><strong>引用类型传递的是地址（传递也是值，但是值是地址），可以通过形参影响实参！</strong>***</p>
+</li>
+<li><p><strong>Java中只有基本数据类型，比如int、double、boolean等是值传递，其他一律是引用传递。在Java中数组（如：int []）被认为是对象，也是引用传递，即2个名称指向同一内存地址。</strong></p>
+</li>
+</ul>
+<h2 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h2><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220903112307463.png" alt="image-20220903112307463"></p>
+<ul>
+<li><p><strong>如果把输出语句放在if后面的else中，则最后只会输出n = 2</strong></p>
+</li>
+<li><p>阶层递归</p>
+</li>
+<li><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220903113238484.png" alt="image-20220903113238484"></p>
+</li>
+</ul>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220903113308749.png" alt="image-20220903113308749"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220903163222983.png" alt="image-20220903163222983"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220903163256500.png" alt="image-20220903163256500"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220903163314696.png" alt="image-20220903163314696"></p>
+<h2 id="方法重载"><a href="#方法重载" class="headerlink" title="方法重载"></a>方法重载</h2><p>7.5 方法重载(OverLoad) </p>
+<p>7.5.1基本介绍 </p>
+<p>java 中允许同一个类中，多个同名方法的存在，但要求 形参列表不一致！</p>
+<p>7.5.3快速入门案例 </p>
+<p>OverLoad01.java </p>
+<p>案例：类：MyCalculator 方法：calculate </p>
+<p>\1) calculate(int n1, int n2) //两个整数的和 </p>
+<p>\2) calculate(int n1, double n2) //一个整数，一个 double 的和 </p>
+<p>\3) calculate(double n2, int n1)//一个 double ,一个 Int 和 </p>
+<p>\4) calculate(int n1, int n2,int n3)//三个 int 的和</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220905131425173.png" alt="image-20220905131425173"></p>
+<h2 id="可变参数"><a href="#可变参数" class="headerlink" title="可变参数"></a>可变参数</h2><ul>
+<li>示范</li>
+</ul>
+<p>//1. int… 表示接受的是可变参数，类型是 int ,即可以接收多个 int(0-多) </p>
+<p>//2. 使用可变参数时，可以当做数组来使用 即 nums 可以当做数组 </p>
+<p>//3. 遍历 nums 求和即可 </p>
+<p>public int sum(int… nums) { </p>
+<p>//System.out.println(“接收的参数个数=” + nums.length); </p>
+<p>int res = 0; </p>
+<p>for(int i = 0; i &lt; nums.length; i++) { </p>
+<p>res += nums[i]; </p>
+<p>}</p>
+<p>return res; </p>
+<p>} </p>
+<p>} </p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220905132217893.png" alt="image-20220905132217893"></p>
+<h2 id="变量作用域"><a href="#变量作用域" class="headerlink" title="变量作用域"></a>变量作用域</h2><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220905133225183.png" alt="image-20220905133225183"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220905133546827.png" alt="image-20220905133546827"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220905134015572.png" alt="image-20220905134015572"></p>
+<h2 id="构造器"><a href="#构造器" class="headerlink" title="构造器"></a>构造器</h2><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907093408492.png" alt="image-20220907093408492"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907095133125.png" alt="image-20220907095133125"></p>
+<h2 id="this关键字"><a href="#this关键字" class="headerlink" title="this关键字"></a>this关键字</h2><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907095556159.png" alt="image-20220907095556159"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907095654921.png" alt="image-20220907095654921"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907102554759.png" alt="image-20220907102554759"></p>
+<p>7.10.3 this 的注意事项和使用细节 </p>
+<p>ThisDetail.java </p>
+<p>\1) this 关键字可以用来访问本类的属性、方法、构造器 </p>
+<p>\2) this 用于区分当前类的属性和局部变量 </p>
+<p>\3) 访问成员方法的语法：this.方法名(参数列表); </p>
+<p>\4) 访问构造器语法：this(参数列表); 注意只能在构造器中使用(即只能在构造器中访问另外一个构造器, 必须放在第一 </p>
+<p>条语句) </p>
+<p>\5) this 不能在类定义的外部使用，只能在类定义的方法中使用。</p>
+<h2 id="8-4-7常用的包"><a href="#8-4-7常用的包" class="headerlink" title="8.4.7常用的包"></a>8.4.7常用的包</h2><p>一个包下,包含很多的类,java 中常用的包有: </p>
+<p>\1) java.lang.* </p>
+<p>//lang 包是基本包，默认引入，不需要再引入. </p>
+<p>\2) java.util.* </p>
+<p>//util 包，系统提供的工具包, 工具类，使用 Scanner </p>
+<p>\3) java.net.* </p>
+<p>//网络包，网络开发 </p>
+<p>\4) java.awt.* //是做 java 的界面开发，GUI</p>
+<h2 id="8-5-访问修饰符"><a href="#8-5-访问修饰符" class="headerlink" title="8.5 访问修饰符"></a>8.5 访问修饰符</h2><p>8.5.1基本介绍 </p>
+<p>java 提供四种访问控制修饰符号，用于控制方法和属性(成员变量)的访问权限（范围）: </p>
+<p>\1) 公开级别:用 public 修饰,对外公开 </p>
+<p>\2) 受保护级别:用 protected 修饰,对子类和同一个包中的类公开 </p>
+<p>\3) 默认级别:没有修饰符号,向同一个包的类公开. </p>
+<p>\4) 私有级别:用 private 修饰,只有类本身可以访问,不对外公开.</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907165259387.png" alt="image-20220907165259387"></p>
+<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907165851671.png" alt="image-20220907165851671"></p>
+<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><p><strong>8.8.5继承给编程带来的便利</strong> </p>
+<p><strong>\1) 代码的复用性提高了</strong> </p>
+<p><strong>\2) 代码的扩展性和维护性提高了</strong> </p>
+<p><strong>8.8.6继承的深入讨论/细节问题</strong> </p>
+<p><strong>\1) 子类继承了所有的属性和方法，非私有的属性和方法可以在子类直接访问, 但是私有属性和方法不能在子类直接访</strong> </p>
+<p><strong>问，要通过父类提供公共的方法去访问</strong> </p>
+<p><strong>\2) 子类必须调用父类的构造器， 完成父类的初始化</strong> </p>
+<p><strong>\3) 当创建子类对象时，不管使用子类的哪个构造器，默认情况下总会去调用父类的无参构造器，如果父类没有提供无</strong> </p>
+<p><strong>参构造器，则必须在子类的构造器中用 super 去指定使用父类的哪个构造器完成对父类的初始化工作，否则，编译</strong> </p>
+<p><strong>不会通过(怎么理解。) [举例说明]</strong> </p>
+<p><strong>\4) 如果希望指定去调用父类的某个构造器，则显式的调用一下 : super(参数列表)</strong> </p>
+<p><strong>\5) super 在使用时，必须放在构造器第一行(super 只能在构造器中使用)</strong> </p>
+<p><strong>\6) super() 和 this() 都只能放在构造器第一行，因此这两个方法不能共存在一个构造器</strong> </p>
+<p><strong>\7) java 所有类都是 Object 类的子类, Object 是所有类的基类.</strong> </p>
+<p><strong>\8) 父类构造器的调用不限于直接父类！将一直往上追溯直到 Object 类(顶级父类)</strong> </p>
+<p><strong>\9) 子类最多只能继承一个父类(指直接继承)，即 java 中是单继承机制。</strong> </p>
+<p><strong>思考：如何让 A 类继承 B 类和 C 类？ 【A 继承 B， B 继承 C】</strong> </p>
+<p><strong>\10) 不能滥用继承，子类和父类之间必须满足 is-a 的逻辑关系</strong> </p>
+<h2 id="super关键字"><a href="#super关键字" class="headerlink" title="super关键字"></a>super关键字</h2><ul>
+<li>super 代表父类的引用，用于<strong>访问父类的属性、方法、构造</strong>器</li>
+</ul>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907224650600.png" alt="image-20220907224650600"></p>
+<p>//super 的访问不限于直接父类，如果爷爷类和本类中有同名的成员，也可以使用 super 去访问爷爷类的成员； </p>
+<p>// 如果多个基类(上级类)中都有同名的成员，使用 super 访问遵循就近原则。A-&gt;B-&gt;C </p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907224815321.png" alt="image-20220907224815321"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907224830074.png" alt="image-20220907224830074"></p>
+<h2 id="方法重写-x2F-覆盖-override"><a href="#方法重写-x2F-覆盖-override" class="headerlink" title="方法重写/覆盖(override)"></a>方法重写/覆盖(override)</h2><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907224938371.png" alt="image-20220907224938371"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907224950139.png" alt="image-20220907224950139"></p>
+<h2 id="面向对象编程-多态"><a href="#面向对象编程-多态" class="headerlink" title="面向对象编程-多态"></a>面向对象编程-多态</h2><ul>
+<li><p>方法的多态</p>
+</li>
+<li><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907225128965.png" alt="image-20220907225128965"></p>
+</li>
+<li><p>对象多态</p>
+</li>
+</ul>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907225200510.png" alt="image-20220907225200510"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907225251989.png" alt="image-20220907225251989"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907225324771.png" alt="image-20220907225324771"></p>
+<p><strong>public static void main(String[] args) {</strong> </p>
+<p><strong>//向上转型: 父类的引用指向了子类的对象</strong> </p>
+<p><strong>//语法：父类类型引用名 = new 子类类型();</strong> </p>
+<p><strong>Animal animal = new Cat();</strong> </p>
+<p><strong>Object obj = new Cat();//可以吗? 可以 Object 也是 Cat 的父类</strong> </p>
+<p><strong>//向上转型调用方法的规则如下:</strong> </p>
+<p><strong>//(1)可以调用父类中的所有成员(需遵守访问权限)</strong> </p>
+<p><strong>//(2)但是不能调用子类的特有的成员</strong> </p>
+<p><strong>//(#)因为在编译阶段，能调用哪些成员,是由编译类型来决定的</strong> </p>
+<p><strong>//animal.catchMouse();错误</strong> </p>
+<p><strong>//(4)最终运行效果看子类(运行类型)的具体实现, 即调用方法时，按照从子类(运行类型)开始查找方法</strong> </p>
+<p><strong>//，然后调用，规则我前面我们讲的方法调用规则一致。</strong> </p>
+<p><strong>animal.eat();//猫吃鱼..</strong> </p>
+<p><strong>animal.run();//跑</strong> </p>
+<p><strong>animal.show();//hello,你好</strong> </p>
+<p><strong>animal.sleep();//睡</strong> </p>
+<p><strong>//老师希望，可以调用 Cat 的 catchMouse 方法</strong> </p>
+<p><strong>//多态的向下转型</strong> </p>
+<p><strong>//(1)语法：子类类型 引用名 =（子类类型）父类引用;</strong> </p>
+<p><strong>//问一个问题? cat 的编译类型 Cat,运行类型是 Cat</strong> </p>
+<p><strong>Cat cat = (Cat) animal;</strong> </p>
+<p><strong>cat.catchMouse();//猫抓老鼠</strong> </p>
+<p><strong>//(2)要求父类的引用必须指向的是当前目标类型的对象</strong> </p>
+<p><strong>Dog dog = (Dog) animal; //可以吗？</strong> </p>
+<p><strong>System.out.println(“ok~~”);</strong> </p>
+<p><strong>}</strong> </p>
+<p><strong>}</strong></p>
+<ul>
+<li> instanceOf 比较操作符，用于判断对象的运行类型是否为 XX 类型或 XX 类型的子类型【举例说明】PolyDetail03.java</li>
+</ul>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907225612042.png" alt="image-20220907225612042"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907225730884.png" alt="image-20220907225730884"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220907225817821.png" alt="image-20220907225817821"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220909160451471.png" alt="image-20220909160451471"></p>
+<ul>
+<li><p>当把子类B的sum注释掉后，最后输出那个a.sum()会调用父类的sum(),但父类的sum()里面有getI()，这个函数子类和父类都有(动态绑定)，所以他会调用子类的getI()，geti()里面有一个属性I，但是属性没有动态绑定 ，所以调用的是父类的I。</p>
+<h2 id="多态数组"><a href="#多态数组" class="headerlink" title="多态数组"></a>多态数组</h2><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220909171059710.png" alt="image-20220909171059710"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220909170942177.png" alt="image-20220909170942177"></p>
+</li>
+<li><p><strong>多态参数</strong></p>
+</li>
+<li><p>使用向下转型调用子类特有的方法</p>
+</li>
+</ul>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220909174732163.png" alt="image-20220909174732163"></p>
+<h2 id="Object-类详解"><a href="#Object-类详解" class="headerlink" title="Object 类详解"></a>Object 类详解</h2><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220909181632419.png" alt="image-20220909181632419"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220909184234902.png" alt="image-20220909184234902"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220909184616411.png" alt="image-20220909184616411"></p>
+<ul>
+<li><strong>hashCode 方法</strong></li>
+</ul>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220909185606436.png" alt="image-20220909185606436"></p>
+<p> 老韩的 6 个小结: </p>
+<p>\1) 提高具有哈希结构的容器的效率！ </p>
+<p>\2) 两个引用，如果指向的是同一个对象，则哈希值肯定是一样的！ </p>
+<p>\3) 两个引用，如果指向的是不同对象，则哈希值是不一样的 </p>
+<p>\4) 哈希值主要根据地址号来的！， 不能完全将哈希值等价于地址。</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220909190251232.png" alt="image-20220909190251232"></p>
+<ul>
+<li><p><strong>toString 方法</strong></p>
+</li>
+<li><p>\1) 基本介绍 </p>
+<p>默认返回：全类名+@+哈希值的十六进制，【查看 Object 的 toString 方法】 </p>
+<p>子类往往重写 toString 方法，用于返回对象的属性信息 </p>
+<p>\2) 重写 toString 方法，打印对象或拼接对象时，都会自动调用该对象的 toString 形式.</p>
+</li>
+</ul>
+<p>\3) 当直接输出一个对象时，toString 方法会被默认的调用, 比如 System.out.println(monster)； 就会默认调用 </p>
+<p>monster.toString() </p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220909191058732.png" alt="image-20220909191058732"></p>
+<ul>
+<li><strong>finalize 方法</strong></li>
+</ul>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220909191241991.png" alt="image-20220909191241991"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7856/WLHimage-20220909191819206.png" alt="image-20220909191819206"></p>
 
                 
             </div>
@@ -498,7 +799,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://WLH55.github.io/2022/08/17/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8/">http://WLH55.github.io/2022/08/17/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8/</a>
+                    <a href="http://WLH55.github.io/2022/09/16/java%E5%9F%BA%E7%A1%80%E5%B0%8F%E7%82%B9/">http://WLH55.github.io/2022/09/16/java%E5%9F%BA%E7%A1%80%E5%B0%8F%E7%82%B9/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -536,20 +837,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/js/">
-                                    <span class="chip bg-color">js</span>
-                                </a>
-                            
-                                <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/">
-                                    <span class="chip bg-color">小程序</span>
-                                </a>
-                            
-                                <a href="/tags/wxss/">
-                                    <span class="chip bg-color">wxss</span>
-                                </a>
-                            
-                                <a href="/tags/wxml/">
-                                    <span class="chip bg-color">wxml</span>
+                                <a href="/tags/java/">
+                                    <span class="chip bg-color">java</span>
                                 </a>
                             
                         </div>
@@ -650,9 +939,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2022/09/16/java%E5%9F%BA%E7%A1%80%E5%B0%8F%E7%82%B9/">
                     <div class="card-image">
@@ -670,9 +960,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-09-16
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-16
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -685,6 +975,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -703,13 +994,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/08/11/%E4%B9%A6%E5%9F%8E%E9%A1%B9%E7%9B%AE%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5/">
+                <a href="/2022/08/17/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="书城项目第三阶段">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="小程序入门">
                         
-                        <span class="card-title">书城项目第三阶段</span>
+                        <span class="card-title">小程序入门</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -720,14 +1011,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-17
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/javaweb/" class="post-category">
-                                    javaweb
+                            <a href="/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" class="post-category">
+                                    小程序
                                 </a>
                             
                             
@@ -737,16 +1028,20 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/servelt/">
-                        <span class="chip bg-color">servelt</span>
+                    <a href="/tags/js/">
+                        <span class="chip bg-color">js</span>
                     </a>
                     
-                    <a href="/tags/BeanUtils/">
-                        <span class="chip bg-color">BeanUtils</span>
+                    <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/">
+                        <span class="chip bg-color">小程序</span>
                     </a>
                     
-                    <a href="/tags/jsp/">
-                        <span class="chip bg-color">jsp</span>
+                    <a href="/tags/wxss/">
+                        <span class="chip bg-color">wxss</span>
+                    </a>
+                    
+                    <a href="/tags/wxml/">
+                        <span class="chip bg-color">wxml</span>
                     </a>
                     
                 </div>
